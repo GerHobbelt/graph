@@ -326,7 +326,7 @@ typename property_traits< CoreMap >::value_type core_numbers(
         vis);
 }
 
-// non-named paramter version for the unweighted case
+// non-named parameter version for the unweighted case
 template < typename Graph, typename CoreMap >
 typename property_traits< CoreMap >::value_type core_numbers(
     Graph& g, CoreMap c)
